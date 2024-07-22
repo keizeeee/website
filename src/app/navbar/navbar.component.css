@@ -1,0 +1,5 @@
+/* navbar.component.css */
+.nav-link.active-link {
+    text-decoration: underline;
+    text-decoration-color: #E100FF; 
+  }

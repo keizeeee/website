@@ -1,4 +1,40 @@
 .indi-bg{
     background-color: #1A1423;
     color: white;
-}/* You can add global styles to this file, and also import other style files */
+}
+.indi-theme {
+    background-color: #E100FF;
+    color: white;
+}
+
+.bright-text {
+    color: #E100FF;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; 
+    font-weight: 500; 
+    color: white 
+  }
+  
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px; 
+    font-weight: 400; 
+    color: white; 
+  }
+
+  .font-poppins-lg-bright { /* for title bright*/
+    font-family: 'Poppins', sans-serif;
+    font-size: 56px; 
+    font-weight: 500; 
+    color: #E100FF; 
+  }
+
+  .font-poppins-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px; 
+    font-weight: 400; 
+    color: white; 
+  }

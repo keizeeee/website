@@ -1,23 +1,23 @@
-<div class="container mb-3">
-    <nav class="navbar navbar-expand-sm rounded-3 bg-transparent shadow">
+<div class="container mb-3 fixed-top p-3">
+    <nav class="navbar navbar-expand-sm rounded-3 bg-transparent shadow-lg">
         <div class="container-fluid">
-            <a class="navbar-brand mb-0 h1 text-white" href="#">
+            <a class="navbar-brand mb-0 h1 bright-text" href="/">
                 <i class="bi bi-hearts"></i>
                 KC's Portfolio
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon "></span>
             </button>
             <div class="navbar-collapse collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="navbar-item">
-                        <a [routerLink]="['/']" class="nav-link text-white"> Home </a>
+                        <a [routerLink]="['/']" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }" class="nav-link text-white"> Home </a>
                     </li>
                     <li class="navbar-item">
-                        <a [routerLink]="['/about']" class="nav-link text-white"> About </a>
+                        <a [routerLink]="['/about']" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }" class="nav-link text-white"> About </a>
                     </li>
                     <li class="navbar-item">
-                        <a [routerLink]="['/experience']" class="nav-link text-white"> Experience </a>
+                        <a [routerLink]="['/experience']" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }" class="nav-link text-white"> Experience </a>
                     </li>
                 </ul>
             </div>
