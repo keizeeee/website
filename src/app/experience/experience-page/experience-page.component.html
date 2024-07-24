@@ -6,12 +6,74 @@
     </div>
   
     <div class="container p-5 vh-100 position-absolute start-50 translate-middle-x">
-      <div class="row pt-5">
-        <div class="col-md-4">
-            <p class=" d-flex justify-content-center mt-2 font-poppins-text indi-theme rounded">EXPERIENCE</p>
+        <div class="row rounded-3 shadow mt-5">
+            <!-- display navs/tabs for projects, experience and skills -->
+            <div class="col-md-3 mt-5 mb-5">
+                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <button class="nav-link active bi bi-folder2 " id="v-pills-proj-tab" data-bs-toggle="pill" data-bs-target="#v-pills-proj" type="button" role="tab" aria-controls="v-pills-proj" aria-selected="true" >
+                          Projects
+                    </button>
+                    <button class="nav-link bi bi-person-vcard-fill" id="v-pills-exp-tab" data-bs-toggle="pill" data-bs-target="#v-pills-exp" type="button" role="tab" aria-controls="v-pills-exp" aria-selected="false">
+                          Experience
+                    </button>
+                    <button class="nav-link bi bi-stack" id="v-pills-skills-tab" data-bs-toggle="pill" data-bs-target="#v-pills-skills" type="button" role="tab" aria-controls="v-pills-skills" aria-selected="false">
+                          Skills
+                    </button>
+                    
+                </div>
+            </div>
+    
+            <!-- display content for projects, experience and skills -->
+            <div class="col-md-9 mt-2 mb-2 text-white">
+                <div class="tab-content" id="v-pills-tabContent">
+    
+                    <!-- tab content for project -->
+                    <div class="tab-pane fade show active" id="v-pills-proj" role="tabpanel" aria-labelledby="v-pills-proj-tab" tabindex="0">
+                        <div class="row">
+                            <p class="font-mon-700">Projects</p>
+                        </div>
+                        
+                    </div>
+    
+                    <!-- tab content for experience -->
+                    <div class="tab-pane fade" id="v-pills-exp" role="tabpanel" aria-labelledby="v-pills-exp-tab" tabindex="0">
+                        <div class="row">
+                            <p class="font-mon-700">Experience</p>
+                        </div>
+                    </div>
+    
+                    <!-- tab content for skills -->
+                    <div class="tab-pane fade" id="v-pills-skills" role="tabpanel" aria-labelledby="v-pills-skills-tab" tabindex="0">
+                        <div class="row">
+                            <p class="font-mon-700">Skills</p>
+                        </div>
+                    </div>
+    
+    
+    
+                    
+                </div>  
+            </div>
         </div>
+      <!-- <div id="myid" class="row pt-5">
+        <a class=" col-md-2 d-flex justify-content-center mt-2 font-poppins-text indi-theme rounded me-3" style="text-decoration: none" href="#projects">PROJECTS</a>
+        <a class=" col-md-2 d-flex justify-content-center mt-2 font-poppins-text indi-theme rounded me-3" style="text-decoration: none" href="#experience">EXPERIENCE</a>
+        <a class=" col-md-2 d-flex justify-content-center mt-2 font-poppins-text indi-theme rounded " style="text-decoration: none" href="#skills">SKILLS</a>
       </div>
-  
+
+    <div class="mt-5" data-bs-spy="scroll" data-bs-target="myid" tabindex="0">
+        <section id="projects">
+
+        </section>
+        <section id="projects">
+
+        </section>
+        <section id="projects">
+
+        </section>
+        
+    </div> -->
+        
       
   
     </div>

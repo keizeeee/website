@@ -10,7 +10,13 @@
     font-size: 14px; 
     font-weight: 400; 
     color: white 
-  }
+}
+.font-mon-700 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px; 
+  font-weight: 700; 
+  color: white 
+}
   
   .font-poppins { /* medium white text */
     font-family: 'Poppins', sans-serif;
@@ -20,7 +26,7 @@
   }
 
   .font-poppins-lg-bright { /* for title bright carousel*/
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     font-size: 52px; 
     font-weight: 500; 
     color: #E100FF; 

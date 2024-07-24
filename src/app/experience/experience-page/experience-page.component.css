@@ -1,0 +1,10 @@
+.nav-link.active {
+    background-color:  #E100FF; 
+    color: white; 
+}
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px; 
+    font-weight: 600; 
+    color: rgb(82, 78, 78); 
+}
