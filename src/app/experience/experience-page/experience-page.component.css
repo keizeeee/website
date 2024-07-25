@@ -8,3 +8,22 @@
     font-weight: 600; 
     color: rgb(113, 109, 109); 
 }
+
+.mon-400-16 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px; 
+    font-weight: 400;
+    color: #d1d5db; 
+}
+.mon-700-30 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px; 
+    font-weight: 700;
+    color: white; 
+}
+.mon-600-14 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; 
+    font-weight: 600;
+    color: #d1d5db;
+}
