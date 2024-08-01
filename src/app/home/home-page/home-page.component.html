@@ -5,42 +5,62 @@
       </video>
   </div>
 
+  <app-navbar></app-navbar>
+
   <div class="container pt-5 px-4 vh-100 position-absolute start-50 translate-middle-x">
-    <div class="row pt-5">
-      <div class="col-md-4">
-          <a class=" d-flex justify-content-center mt-2 font-poppins-text indi-theme rounded" style="text-decoration: none">KRISTINA CASTAÑEDA</a>
-      </div>
-    </div>
-
-    <div class="row">
-        
-        <div class="col-lg-6 mt-2 ">
-
-            <div class="font-poppins mt-5">
-                <p>Hi! I'm <strong>Kc</strong>!</p>
+    <section id="home" #home>
+        <div class="row pt-5">
+            <div class="col-md-4">
+                <p class=" d-flex justify-content-center mt-2 font-poppins-text indi-theme rounded" >KRISTINA CASTAÑEDA</p>
             </div>
-
-            <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
-                <div class="carousel-inner">
-                    <div class="carousel-item active font-poppins-lg-bright">
-                        <p> I'm a Web Developer</p>
-                    </div>
-                    <div class="carousel-item font-poppins-lg-bright">
-                        <p> I'm a Web Designer</p>
+        </div>
+          
+        <div class="row">
+            
+            <div class="col-lg-6 mt-2 ">
+    
+                <div class="font-poppins mt-5">
+                    <p>Hi! I'm <strong>Kc</strong>!</p>
+                </div>
+    
+                <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active font-poppins-lg-bright">
+                            <p> I'm a Web Developer</p>
+                        </div>
+                        <div class="carousel-item font-poppins-lg-bright">
+                            <p> I'm a Web Designer</p>
+                        </div>
                     </div>
                 </div>
+    
+                <div class="pt-3 font-poppins-text">
+                    <p> I am a 3rd year Computer Science student at the University of the Philippines Diliman. With a foundation in data science, software engineering, database systems and computer programming, I am passionate about leveraging my skills to make a meaningful impact. </p>
+                </div>
             </div>
-
-            <div class="pt-3 font-poppins-text">
-                <p> I am a 3rd year Computer Science student at the University of the Philippines Diliman. With a foundation in data science, software engineering, database systems and computer programming, I am passionate about leveraging my skills to make a meaningful impact. </p>
+    
+            <div class="col-lg-6">
+                <img src="../../assets/img/kcPort3.png" alt="kc-pic" class="img-fluid">
             </div>
+            
         </div>
+    </section>
+    
 
-        <div class="col-lg-6">
-            <img src="../../assets/img/kcPort3.png" alt="kc-pic" class="img-fluid">
+    <section id="experience" #experience>
+        <div class="row">
+            <app-experience-page></app-experience-page>
         </div>
-        
-    </div>
+    </section>
+
+    <section id="about" #about>
+        <div class="row">
+            <app-about-page></app-about-page>
+        </div>
+    </section>
+    
+    
+    
 
   </div>
   

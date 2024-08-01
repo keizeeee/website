@@ -10,14 +10,14 @@
             </button>
             <div class="navbar-collapse collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="navbar-item font-poppins-text mx-2">
-                        <a [routerLink]="['/']" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }" class="nav-link text-white"> Home </a>
+                    <li class="navbar-item font-poppins-text mx-2" (click)="toHome()" [routerLink]="['/']" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }" >
+                        Home
                     </li>
-                    <li class="navbar-item font-poppins-text mx-2">
-                        <a [routerLink]="['/about']" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }" class="nav-link text-white"> About </a>
+                    <li class="navbar-item font-poppins-text mx-2" (click)="toAbout()" routerLinkActive="active-link" >
+                        About
                     </li>
-                    <li class="navbar-item font-poppins-text mx-2">
-                        <a [routerLink]="['/experience']" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }" class="nav-link text-white"> Experience and Projects </a>
+                    <li class="navbar-item font-poppins-text mx-2 " (click)="toExperience()" routerLinkActive="active-link" >
+                        Experience and Projects
                     </li>
                 </ul>
             </div>

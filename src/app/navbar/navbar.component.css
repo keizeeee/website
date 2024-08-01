@@ -1,9 +1,6 @@
-.nav-link.active-link {
-    text-decoration: underline;
-    text-decoration-color: #E100FF; 
-}
-.navbar-brand:hover {
-  color: white; 
+.navbar-item:hover {
+  text-decoration: underline; 
+  text-decoration-color: #E100FF;
 }
 
 .bright-poppins-text {
