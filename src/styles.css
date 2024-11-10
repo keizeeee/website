@@ -4,12 +4,47 @@
 .indi-theme {
     background-color: #E100FF;
 }
-
+.indi-text {
+  color:#E100FF;
+}
+.indi-button {
+  border: 1px solid #E100FF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px; 
+  font-weight: 400; 
+  color:#E100FF;
+ 
+}
+.mon-400-16 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px; 
+  font-weight: 400;
+  color: #d1d5db; 
+}
+.mon-700-30 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px; 
+  font-weight: 700;
+  color: white; 
+}
+.mon-600-14 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px; 
+  font-weight: 600;
+  color: #d1d5db;
+}
 .font-montserrat {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px; 
     font-weight: 400; 
     color: white 
+}
+
+.font-mon-400 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px; 
+  font-weight: 400; 
+  color: white 
 }
 .font-mon-700 {
   font-family: 'Montserrat', sans-serif;
@@ -22,6 +57,13 @@
     font-family: 'Poppins', sans-serif;
     font-size: 28px; 
     font-weight: 400; 
+    color: white; 
+  }
+
+  .font-pop-18 { /* medium white text */
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px; 
+    font-weight: 300; 
     color: white; 
   }
 
