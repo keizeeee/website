@@ -27,13 +27,21 @@ export class NavbarComponent {
       console.error('Element with ID "about" not found.');
     }
   }
-
   toExperience() {
-    const experienceElement = document.getElementById("experience");
+    const experienceElement = document.getElementById("experiences");
     if (experienceElement) {
       experienceElement.scrollIntoView({ behavior: 'smooth' });
     } else {
       console.error('Element with ID "experience" not found.');
+    }
+  }
+  // to projects
+  toProjects() {
+    const projectElement = document.getElementById("experience");
+    if (projectElement) {
+      projectElement.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      console.error('Element with ID "projects" not found.');
     }
   }
 
