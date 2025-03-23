@@ -1,66 +1,278 @@
 <div>
   
-    <div class="container pt-5">
-        <div class="row rounded-3 shadow mt-5">
-          <div class="row">
-            <p class="font-mon-700 border-bottom pb-3">Projects</p>
-        </div>
-
-        <div id="carouselProjects" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="../../assets/img/proj/proj-algo.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="col-md-6 mt-4">
-                    <p class="mon-600-14">Gaming Application</p>
-                    <p class="mon-700-30">Algorithmic Odyssey</p>
-                    <p class="mon-400-16">An educational game application designed to facilitate the learning of various programming algorithms.
-                      This interactive game offers a unique blend of civilization-building and multiple-choice quiz-style assessments
-                    </p>
-                   
-
-                    
-
-                  </div>
-                </div>
+  <div class="container pt-2 py-5">
+      <div class="row rounded-3 shadow mt-5">
+          <!-- display navs/tabs for projects -->
+          <div class="col-lg-2 mt-5 mb-5">
+              <div class="nav flex-column nav-pills me-3 " id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                  <button class="nav-link active bi bi-stack " id="algo-tab" data-bs-toggle="pill" data-bs-target="#algo" type="button" role="tab" aria-controls="algo" aria-selected="true" >
+                        Algorithmic Odyssey
+                  </button>
+                  <button class="nav-link bi bi-stack" id="super-tab" data-bs-toggle="pill" data-bs-target="#super" type="button" role="tab" aria-controls="super" aria-selected="false">
+                        SuperPot
+                  </button>
+                  <button class="nav-link bi bi-stack" id="datasci-tab" data-bs-toggle="pill" data-bs-target="#datasci" type="button" role="tab" aria-controls="datasci" aria-selected="false">
+                        Data Science
+                  </button>
+                  <button class="nav-link bi bi-stack" id="egg-tab" data-bs-toggle="pill" data-bs-target="#egg" type="button" role="tab" aria-controls="egg" aria-selected="false">
+                    Egg Toss
+                  </button>
+                  <button class="nav-link bi bi-stack" id="avatar-tab" data-bs-toggle="pill" data-bs-target="#avatar" type="button" role="tab" aria-controls="avatar" aria-selected="false">
+                    Avatar
+                  </button>
+                  
               </div>
-
-             
-
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="../../assets/img/proj/proj-superpot.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="col-md-6 mt-4">
-                    <p class="mon-600-14">Internet-of-Things project</p>
-                    <p class="mon-700-30">The Super Pot</p>
-                    <p class="mon-400-16">A Smart Greenhouse Enclosure System for growing vegetables and nurturing seedlings.
-                       It is  built upon the ESP8266 Microcontroller, which includes sensors for sunlight and moisture, an automatic waterer, and a weather-dependent shade system, ensuring optimal care for plants from anywhere via the Internet.
-                    </p>
-
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjects" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselProjects" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-                       
-    </div>
-          
+  
+          <!-- display content for projects -->
+          <div class="col-md mt-2 mb-2 text-white">
+              <div class="tab-content" id="v-pills-tabContent">
+  
+                  <!-- tab content for project -->
+                  <div class="tab-pane fade show active" id="algo" role="tabpanel" aria-labelledby="algo-tab" tabindex="0">
+                      <div class="row">
+                          <p class="font-mon-700 border-bottom pb-3">Projects</p>
+                      </div>
 
-    </div>
-    
+                      <div class="row">
+
+
+                        <div class="col-md-6">
+                          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="5000">
+                                <img src="../../assets/img/proj/proj-algo.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="5000">
+                                 <img src="../../assets/img/proj/a2.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="5000">
+                                <img src="../../assets/img/proj/a3.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="5000">
+                                <img src="../../assets/img/proj/a4.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="5000">
+                                <img src="../../assets/img/proj/a5.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+      
+      
+                    
+                          
+                          
+                        </div>
+                        <div class="col-md-6 mt-4">
+                          <p class="mon-600-14">Gaming Application</p>
+                          <p class="mon-700-30">Algorithmic Odyssey</p>
+                          <p class="mon-400-16">An educational game application designed to facilitate the learning of various programming algorithms.
+                            This interactive game offers a unique blend of civilization-building and multiple-choice quiz-style assessments
+                          </p>
+                         
+      
+                          
+      
+                        </div>
+                      </div>
+
+                      
+                  </div>
+  
+                  <!-- tab content for super pot -->
+                  <div class="tab-pane fade" id="super" role="tabpanel" aria-labelledby="super-tab" tabindex="0">
+                      <div class="row ">
+                        <p class="font-mon-700 border-bottom pb-3">Projects</p> 
+                      </div>
+
+
+                      <div class="row">
+
+
+                        <div class="col-md-6">
+                          <div id="superpot" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="5000">
+                                <img src="../../assets/img/proj/proj-superpot.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="5000">
+                                <img src="../../assets/img/proj/s2.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="10000">
+                                <img src="../../assets/img/proj/s3.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#superpot" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#superpot" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+      
+      
+                    
+                          
+                          
+                        </div>
+                        <div class="col-md-6 mt-4">
+                          <p class="mon-600-14">Internet-of-Things project</p>
+                          <p class="mon-700-30">The Super Pot</p>
+                          <p class="mon-400-16">A Smart Greenhouse Enclosure System for growing vegetables and nurturing seedlings.
+                             It is  built upon the ESP8266 Microcontroller, which includes sensors for sunlight and moisture, an automatic waterer, and a weather-dependent shade system, ensuring optimal care for plants from anywhere via the Internet.
+                          </p>
+
+                          <div class="pt-5 col-6 ">
+                            <a class="btn btn-lg rounded indi-button" target="_blank" href="https://mysuperpot.vercel.app/">See Project</a>
+                          </div>
+
+                         
+      
+                          
+      
+                        </div>
+                      </div>
+
+
+
+
+                  </div>
+  
+                  <!-- tab content for datasci -->
+                  <div class="tab-pane fade" id="datasci" role="tabpanel" aria-labelledby="datasci-tab" tabindex="0">
+                      <div class="row">
+                        <p class="font-mon-700 border-bottom pb-3">Projects</p>
+                      </div>
+
+
+                      <div class="row">
+
+
+                        <div class="col-md-6">
+                          <div id="datascience" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="5000">
+                                <img src="../../assets/img/proj/c1.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="5000">
+                                <img src="../../assets/img/proj/c2.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="5000">
+                                <img src="../../assets/img/proj/c3.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item" data-bs-interval="5000">
+                                <img src="../../assets/img/proj/c4.png" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#datascience" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#datascience" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+      
+      
+                    
+                          
+                          
+                        </div>
+                        <div class="col-md-6 mt-4">
+                          <p class="mon-600-14">Data Science project</p>
+                          <p class="mon-700-30">WATCH THE FACTS! A Mini-Conference on Data Science and Disinformation in the Philippines (2023)</p>
+                          <p class="mon-400-16">An Analysis on the Supposed Rise in EDSA Revolution Disinformation During the
+                            2022 Election Period made for CS 132 (Intro to Data Science). Involved in data collection, data model selection, data model analysis, data communication, and presentation.
+                          </p>
+                          <div class="pt-5 col-6 ">
+                            <a class="btn btn-lg rounded indi-button" target="_blank" href="https://vdispo.github.io/CS-132-Project/">See Project</a>
+                          </div>
+      
+                        </div>
+                      </div>
+
+
+
+
+                  </div>
+
+
+
+                  <!-- tab content for egg -->
+                  <div class="tab-pane fade" id="egg" role="tabpanel" aria-labelledby="egg-tab" tabindex="0">
+                    <div class="row">
+                      <p class="font-mon-700 border-bottom pb-3">Projects</p>
+                    </div>
+
+
+                    <div class="row">
+
+
+                      <div class="col-md-6 d-flex justify-content-center">
+                        <video autoplay loop [muted]="'muted'" preload="auto" class="d-block w-50" controls>
+                          <source src="../../assets/img/proj/eggtoss.mp4" type="video/mp4">
+                        </video>
+                      </div>
+
+                      <div class="col-md-6 mt-4">
+                        <p class="mon-600-14">Game</p>
+                        <p class="mon-700-30">Egg Toss</p>
+                        <p class="mon-400-16">This is a course requirement for CS 12 Computer Programming II Course of the Department of Computer Science, College of Engineering, University of the Philippines, Diliman for A.Y. 2021-2022. It is a pairwork with Ms. Gacho using Pyret.
+                        </p>
+                        <div class="pt-5 col-6 ">
+                          <a class="btn btn-lg rounded indi-button" target="_blank" href="https://github.com/keizeeee/egg_toss">See Git Repo</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <!-- tab content for avatar -->
+                  <div class="tab-pane fade" id="avatar" role="tabpanel" aria-labelledby="avatar-tab" tabindex="0">
+                    <div class="row">
+                      <p class="font-mon-700 border-bottom pb-3">Projects</p>
+                    </div>
+
+
+                    <div class="row">
+
+
+                      <div class="col-md-6 py-5 d-flex justify-content-center">
+                        <video autoplay loop [muted]="'muted'" preload="auto" class="d-block w-100" controls>
+                          <source src="../../assets/img/proj/Avatar.mp4" type="video/mp4">
+                        </video>
+                      </div>
+
+                      <div class="col-md-6 mt-4">
+                        <p class="mon-600-14">Simple Web App</p>
+                        <p class="mon-700-30">Avatar Profile</p>
+                        <p class="mon-400-16">
+                          Designed and developed a visually engaging website featuring some character descriptions and visuals from one of my favorite animated series "Avatar: The Last Airbender."
+                        </p>
+                        <div class="pt-5 col-6 ">
+                          <a class="btn btn-lg rounded indi-button" target="_blank" href="https://keizeeee.github.io/Avatar/">See Avatar</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+  
+  
+                  
+              </div>  
+          </div>
+      </div>
   </div>
+  
+</div>
