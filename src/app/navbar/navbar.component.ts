@@ -44,5 +44,14 @@ export class NavbarComponent {
       console.error('Element with ID "projects" not found.');
     }
   }
+  // to projects
+  toEducation() {
+    const projectElement = document.getElementById("education");
+    if (projectElement) {
+      projectElement.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      console.error('Element with ID "education" not found.');
+    }
+  }
 
 }
