@@ -118,3 +118,8 @@
   max-height: 100px;
   object-fit: contain;
 }
+
+.purple-bg {
+  background-color: #E100FF;
+  color: #fff;
+}
